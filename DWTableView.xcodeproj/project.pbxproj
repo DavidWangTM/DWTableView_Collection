@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		217718B51B840BAF008549E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 217718B41B840BAF008549E8 /* main.m */; };
+		217718B81B840BAF008549E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 217718B71B840BAF008549E8 /* AppDelegate.m */; };
+		217718BB1B840BAF008549E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 217718BA1B840BAF008549E8 /* ViewController.m */; };
+		217718BE1B840BAF008549E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217718BC1B840BAF008549E8 /* Main.storyboard */; };
+		217718C01B840BAF008549E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217718BF1B840BAF008549E8 /* Images.xcassets */; };
+		217718C31B840BAF008549E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 217718C11B840BAF008549E8 /* LaunchScreen.xib */; };
+		217718CF1B840BAF008549E8 /* DWTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 217718CE1B840BAF008549E8 /* DWTableViewTests.m */; };
+		217718DB1B840D31008549E8 /* OneViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 217718DA1B840D31008549E8 /* OneViewCell.m */; };
+		217718E21B840F38008549E8 /* OneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 217718E11B840F38008549E8 /* OneView.m */; };
+		217718E71B840F48008549E8 /* OneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 217718E61B840F48008549E8 /* OneView.xib */; };
+		217718F41B84198C008549E8 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 217718F31B84198C008549E8 /* ViewModel.m */; };
+		2177190D1B8428AC008549E8 /* GridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2177190C1B8428AC008549E8 /* GridCell.m */; };
+		2C79131F5266F498D4B4D669 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 494B812FED46C699B11772CA /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		217718C91B840BAF008549E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217718A71B840BAF008549E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217718AE1B840BAF008549E8;
+			remoteInfo = DWTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		217718AF1B840BAF008549E8 /* DWTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		217718B31B840BAF008549E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217718B41B840BAF008549E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		217718B61B840BAF008549E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		217718B71B840BAF008549E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		217718B91B840BAF008549E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		217718BA1B840BAF008549E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		217718BD1B840BAF008549E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		217718BF1B840BAF008549E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		217718C21B840BAF008549E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		217718C81B840BAF008549E8 /* DWTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		217718CD1B840BAF008549E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217718CE1B840BAF008549E8 /* DWTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWTableViewTests.m; sourceTree = "<group>"; };
+		217718D91B840D31008549E8 /* OneViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewCell.h; sourceTree = "<group>"; };
+		217718DA1B840D31008549E8 /* OneViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewCell.m; sourceTree = "<group>"; };
+		217718E01B840F38008549E8 /* OneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneView.h; sourceTree = "<group>"; };
+		217718E11B840F38008549E8 /* OneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneView.m; sourceTree = "<group>"; };
+		217718E61B840F48008549E8 /* OneView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneView.xib; sourceTree = "<group>"; };
+		217718F21B84198C008549E8 /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		217718F31B84198C008549E8 /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		2177190B1B8428AC008549E8 /* GridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCell.h; sourceTree = "<group>"; };
+		2177190C1B8428AC008549E8 /* GridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCell.m; sourceTree = "<group>"; };
+		30938756D748E9F6D6D0B002 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		494B812FED46C699B11772CA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		525E3E5E6DF22702677667C3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		217718AC1B840BAF008549E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C79131F5266F498D4B4D669 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217718C51B840BAF008549E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		217718A61B840BAF008549E8 = {
+			isa = PBXGroup;
+			children = (
+				217718B11B840BAF008549E8 /* DWTableView */,
+				217718CB1B840BAF008549E8 /* DWTableViewTests */,
+				217718B01B840BAF008549E8 /* Products */,
+				9FAFDAE7276D554510D03D7D /* Pods */,
+				8A84A90EA5DC24C4DADB46AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		217718B01B840BAF008549E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				217718AF1B840BAF008549E8 /* DWTableView.app */,
+				217718C81B840BAF008549E8 /* DWTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		217718B11B840BAF008549E8 /* DWTableView */ = {
+			isa = PBXGroup;
+			children = (
+				217718DF1B840F24008549E8 /* Views */,
+				217718D81B840D1B008549E8 /* Cells */,
+				217718B61B840BAF008549E8 /* AppDelegate.h */,
+				217718B71B840BAF008549E8 /* AppDelegate.m */,
+				217718B91B840BAF008549E8 /* ViewController.h */,
+				217718BA1B840BAF008549E8 /* ViewController.m */,
+				217718F21B84198C008549E8 /* ViewModel.h */,
+				217718F31B84198C008549E8 /* ViewModel.m */,
+				217718BC1B840BAF008549E8 /* Main.storyboard */,
+				217718BF1B840BAF008549E8 /* Images.xcassets */,
+				217718C11B840BAF008549E8 /* LaunchScreen.xib */,
+				217718B21B840BAF008549E8 /* Supporting Files */,
+			);
+			path = DWTableView;
+			sourceTree = "<group>";
+		};
+		217718B21B840BAF008549E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				217718B31B840BAF008549E8 /* Info.plist */,
+				217718B41B840BAF008549E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		217718CB1B840BAF008549E8 /* DWTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				217718CE1B840BAF008549E8 /* DWTableViewTests.m */,
+				217718CC1B840BAF008549E8 /* Supporting Files */,
+			);
+			path = DWTableViewTests;
+			sourceTree = "<group>";
+		};
+		217718CC1B840BAF008549E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				217718CD1B840BAF008549E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		217718D81B840D1B008549E8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				217718D91B840D31008549E8 /* OneViewCell.h */,
+				217718DA1B840D31008549E8 /* OneViewCell.m */,
+				2177190B1B8428AC008549E8 /* GridCell.h */,
+				2177190C1B8428AC008549E8 /* GridCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		217718DF1B840F24008549E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				217718E01B840F38008549E8 /* OneView.h */,
+				217718E11B840F38008549E8 /* OneView.m */,
+				217718E61B840F48008549E8 /* OneView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8A84A90EA5DC24C4DADB46AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494B812FED46C699B11772CA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FAFDAE7276D554510D03D7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				525E3E5E6DF22702677667C3 /* Pods.debug.xcconfig */,
+				30938756D748E9F6D6D0B002 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		217718AE1B840BAF008549E8 /* DWTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217718D21B840BAF008549E8 /* Build configuration list for PBXNativeTarget "DWTableView" */;
+			buildPhases = (
+				3DF76DAA7DE66AA43A524183 /* Check Pods Manifest.lock */,
+				217718AB1B840BAF008549E8 /* Sources */,
+				217718AC1B840BAF008549E8 /* Frameworks */,
+				217718AD1B840BAF008549E8 /* Resources */,
+				CF77CFBA708C0E71BCD92428 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DWTableView;
+			productName = DWTableView;
+			productReference = 217718AF1B840BAF008549E8 /* DWTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		217718C71B840BAF008549E8 /* DWTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217718D51B840BAF008549E8 /* Build configuration list for PBXNativeTarget "DWTableViewTests" */;
+			buildPhases = (
+				217718C41B840BAF008549E8 /* Sources */,
+				217718C51B840BAF008549E8 /* Frameworks */,
+				217718C61B840BAF008549E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				217718CA1B840BAF008549E8 /* PBXTargetDependency */,
+			);
+			name = DWTableViewTests;
+			productName = DWTableViewTests;
+			productReference = 217718C81B840BAF008549E8 /* DWTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		217718A71B840BAF008549E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = DavidWang;
+				TargetAttributes = {
+					217718AE1B840BAF008549E8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					217718C71B840BAF008549E8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 217718AE1B840BAF008549E8;
+					};
+				};
+			};
+			buildConfigurationList = 217718AA1B840BAF008549E8 /* Build configuration list for PBXProject "DWTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 217718A61B840BAF008549E8;
+			productRefGroup = 217718B01B840BAF008549E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				217718AE1B840BAF008549E8 /* DWTableView */,
+				217718C71B840BAF008549E8 /* DWTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		217718AD1B840BAF008549E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217718BE1B840BAF008549E8 /* Main.storyboard in Resources */,
+				217718E71B840F48008549E8 /* OneView.xib in Resources */,
+				217718C31B840BAF008549E8 /* LaunchScreen.xib in Resources */,
+				217718C01B840BAF008549E8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217718C61B840BAF008549E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DF76DAA7DE66AA43A524183 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF77CFBA708C0E71BCD92428 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		217718AB1B840BAF008549E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217718F41B84198C008549E8 /* ViewModel.m in Sources */,
+				217718BB1B840BAF008549E8 /* ViewController.m in Sources */,
+				217718DB1B840D31008549E8 /* OneViewCell.m in Sources */,
+				217718B81B840BAF008549E8 /* AppDelegate.m in Sources */,
+				2177190D1B8428AC008549E8 /* GridCell.m in Sources */,
+				217718B51B840BAF008549E8 /* main.m in Sources */,
+				217718E21B840F38008549E8 /* OneView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217718C41B840BAF008549E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217718CF1B840BAF008549E8 /* DWTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		217718CA1B840BAF008549E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 217718AE1B840BAF008549E8 /* DWTableView */;
+			targetProxy = 217718C91B840BAF008549E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		217718BC1B840BAF008549E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217718BD1B840BAF008549E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		217718C11B840BAF008549E8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217718C21B840BAF008549E8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		217718D01B840BAF008549E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		217718D11B840BAF008549E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		217718D31B840BAF008549E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525E3E5E6DF22702677667C3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DWTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		217718D41B840BAF008549E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30938756D748E9F6D6D0B002 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DWTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		217718D61B840BAF008549E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DWTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWTableView.app/DWTableView";
+			};
+			name = Debug;
+		};
+		217718D71B840BAF008549E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DWTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWTableView.app/DWTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		217718AA1B840BAF008549E8 /* Build configuration list for PBXProject "DWTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217718D01B840BAF008549E8 /* Debug */,
+				217718D11B840BAF008549E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217718D21B840BAF008549E8 /* Build configuration list for PBXNativeTarget "DWTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217718D31B840BAF008549E8 /* Debug */,
+				217718D41B840BAF008549E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217718D51B840BAF008549E8 /* Build configuration list for PBXNativeTarget "DWTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217718D61B840BAF008549E8 /* Debug */,
+				217718D71B840BAF008549E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 217718A71B840BAF008549E8 /* Project object */;
+}
