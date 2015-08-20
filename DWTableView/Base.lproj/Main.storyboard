@@ -45,7 +45,7 @@
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </view>
                                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="nnp-Li-k4Q">
-                                                    <rect key="frame" x="95" y="40" width="217" height="260"/>
+                                                    <rect key="frame" x="95" y="40" width="217" height="204"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="8" minimumInteritemSpacing="8" id="Dju-cV-yqV">
                                                         <size key="itemSize" width="96" height="72"/>
@@ -72,12 +72,22 @@
                                                         </collectionViewCell>
                                                     </cells>
                                                 </collectionView>
+                                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="azi-fX-Dl9">
+                                                    <rect key="frame" x="103" y="252" width="201" height="40"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                                    <color key="backgroundColor" red="0.24313725489999999" green="0.70980392160000005" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="Button">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                </button>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <outlet property="collectionView" destination="nnp-Li-k4Q" id="clc-jf-yZV"/>
+                                            <outlet property="showBtn" destination="azi-fX-Dl9" id="dws-SG-PZ7"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

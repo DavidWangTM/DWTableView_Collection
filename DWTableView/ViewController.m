@@ -64,6 +64,9 @@
     ViewModel *model = [mdata objectAtIndex:indexPath.row];
     if (model.is_open) {
         CGFloat height = ((BOUNDS.width - 103 - 8*3)/2 ) *5 *0.75+ (8*4) + 40;
+        if ((mdata.count - 1) == indexPath.row) {
+            height += 56;
+        }
         return height;
     }
     return 40;
@@ -76,8 +79,18 @@
     cell.collectionView.delegate = self;
     cell.collectionView.dataSource = self;
     [cell.collectionView reloadData];
-//    NSMutableArray *mdata = [data objectAtIndex:indexPath.section];
-//    ViewModel *model = [mdata objectAtIndex:indexPath.row];
+    NSMutableArray *mdata = [data objectAtIndex:indexPath.section];
+    ViewModel *model = [mdata objectAtIndex:indexPath.row];
+    if (model.is_open) {
+        if ((mdata.count - 1) == indexPath.row) {
+            cell.showBtn.hidden = NO;
+            cell.collectionView.frame = CGRectMake(cell.collectionView.frame.origin.x, cell.collectionView.frame.origin.y, cell.collectionView.frame.size.width, cell.frame.size.height - 40);
+        }else{
+            cell.showBtn.hidden = YES;
+        }
+    }else{
+        cell.showBtn.hidden = YES;
+    }
     return cell;
    
 }
