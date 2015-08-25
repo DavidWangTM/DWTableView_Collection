@@ -63,7 +63,7 @@
     NSMutableArray *mdata = [data objectAtIndex:indexPath.section];
     ViewModel *model = [mdata objectAtIndex:indexPath.row];
     if (model.is_open) {
-        CGFloat height = ((BOUNDS.width - 103 - 8*3)/2 ) *5 *0.75+ (8*4) + 40;
+        CGFloat height = ((BOUNDS.width - 103 - 8*3)/2 ) *5 *0.75+ (8*5) + 40;
         if ((mdata.count - 1) == indexPath.row) {
             height += 56;
         }
